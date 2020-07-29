@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Показаны только некоторые открытые члены классов">
+    <Position X="3.16" Y="0.84" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="Orion.Ch341.Ch341Device">
+    <Position X="6.75" Y="0.5" Width="2.25" />
+    <Members>
+      <Field Name="_DeviceIndex" Hidden="true" />
+      <Field Name="_Handle" Hidden="true" />
+      <Method Name="AbortInterrupt" Hidden="true" />
+      <Method Name="CancelDeviceNotify" Hidden="true" />
+      <Method Name="CH341AbortInter" Hidden="true" />
+      <Method Name="CH341CloseDevice" Hidden="true" />
+      <Method Name="CH341DriverCommand" Hidden="true" />
+      <Method Name="CH341FlushBuffer" Hidden="true" />
+      <Method Name="CH341GetConfigDescr" Hidden="true" />
+      <Method Name="CH341GetDeviceDescr" Hidden="true" />
+      <Method Name="CH341GetDeviceName" Hidden="true" />
+      <Method Name="CH341GetDrvVersion" Hidden="true" />
+      <Method Name="CH341GetInput" Hidden="true" />
+      <Method Name="CH341GetStatus" Hidden="true" />
+      <Method Name="CH341GetVerIC" Hidden="true" />
+      <Method Name="CH341GetVersion" Hidden="true" />
+      <Method Name="CH341OpenDevice" Hidden="true" />
+      <Method Name="CH341QueryBufDownload" Hidden="true" />
+      <Method Name="CH341QueryBufUpload" Hidden="true" />
+      <Method Name="CH341ReadInter" Hidden="true" />
+      <Method Name="CH341ResetDevice" Hidden="true" />
+      <Method Name="CH341ResetInter" Hidden="true" />
+      <Method Name="CH341Set_D5_D0" Hidden="true" />
+      <Method Name="CH341SetBufDownload" Hidden="true" />
+      <Method Name="CH341SetBufUpload" Hidden="true" />
+      <Method Name="CH341SetDeviceNotify" Hidden="true" />
+      <Method Name="CH341SetExclusive" Hidden="true" />
+      <Method Name="CH341SetIntRoutine" Hidden="true" />
+      <Method Name="CH341SetOutput" Hidden="true" />
+      <Method Name="CH341SetTimeout" Hidden="true" />
+      <Method Name="ClearBuffer" Hidden="true" />
+      <Field Name="DLL_PATH" Hidden="true" />
+      <Method Name="DriverCommand" Hidden="true" />
+      <Method Name="FindWindowEx" Hidden="true" />
+      <Method Name="GetConfigDescriptor" Hidden="true" />
+      <Method Name="GetDeviceDescriptor" Hidden="true" />
+      <Method Name="GetDeviceName" Hidden="true" />
+      <Method Name="GetDllVersion" Hidden="true" />
+      <Method Name="GetDownloadBuffer" Hidden="true" />
+      <Method Name="GetDriverVersion" Hidden="true" />
+      <Method Name="GetIcVersion" Hidden="true" />
+      <Method Name="GetIcVersionReadable" Hidden="true" />
+      <Method Name="GetInput" Hidden="true" />
+      <Method Name="GetUploadBuffer" Hidden="true" />
+      <Property Name="Handle" Hidden="true" />
+      <Property Name="IcDict" Hidden="true" />
+      <Field Name="INVALID_HANDLE_VALUE" Hidden="true" />
+      <Property Name="IsOpened" Hidden="true" />
+      <Method Name="New" Hidden="true" />
+      <Property Name="PinAddrStrobeState" Hidden="true" />
+      <Property Name="PinDataState" Hidden="true" />
+      <Property Name="PinDataStrobeState" Hidden="true" />
+      <Property Name="PinErrState" Hidden="true" />
+      <Property Name="PinIntState" Hidden="true" />
+      <Property Name="PinPempState" Hidden="true" />
+      <Property Name="PinSdaState" Hidden="true" />
+      <Property Name="PinSelState" Hidden="true" />
+      <Property Name="PinWaitState" Hidden="true" />
+      <Method Name="PostMessage" Hidden="true" />
+      <Method Name="ReadInterrupt" Hidden="true" />
+      <Method Name="ResetInterrupt" Hidden="true" />
+      <Method Name="SetDataPinsDirection" Hidden="true" />
+      <Method Name="SetDeviceNotify" Hidden="true" />
+      <Method Name="SetDownloadBuffer" Hidden="true" />
+      <Method Name="SetInterruptRoutine" Hidden="true" />
+      <Method Name="SetIoPinsDirection" Hidden="true" />
+      <Method Name="SetUploadBuffer" Hidden="true" />
+      <Method Name="SetUsbTimeout" Hidden="true" />
+      <Field Name="USB_NO_TIMEOUT" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="Orion.Ch341.Ch341Device.IcVersion" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Ch341Device.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Orion.Ch341.Ch341Device.DeviceEvent" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Ch341Device.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="Orion.Ch341.Ch341Device.WIN32_COMMAND" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Ch341Device.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="Orion.Ch341.Ch341Device.USB_SETUP_PKT" Collapsed="true">
+        <NestedTypes>
+          <Struct Name="Orion.Ch341.Ch341Device.USB_SETUP_PKT.Union1" Collapsed="true">
+            <TypeIdentifier>
+              <NewMemberFileName>Ch341Device.vb</NewMemberFileName>
+            </TypeIdentifier>
+          </Struct>
+          <Struct Name="Orion.Ch341.Ch341Device.USB_SETUP_PKT.Union2" Collapsed="true">
+            <TypeIdentifier>
+              <NewMemberFileName>Ch341Device.vb</NewMemberFileName>
+            </TypeIdentifier>
+          </Struct>
+        </NestedTypes>
+        <TypeIdentifier>
+          <NewMemberFileName>Ch341Device.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Delegate Name="Orion.Ch341.Ch341Device.mPCH341_INT_ROUTINE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Ch341Device.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Orion.Ch341.Ch341Device.mPCH341_NOTIFY_ROUTINE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Ch341Device.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BSwgYAIQhOEQIUPCw1IGaAgAAGFWOALgQCAABwMDCgQ=</HashCode>
+      <FileName>Ch341Device.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Orion.Ch341.Serial">
+    <Position X="9.5" Y="3.75" Width="2" />
+    <Members>
+      <Method Name="CH341SetDelaymS" Hidden="true" />
+      <Method Name="CH341SetStream" Hidden="true" />
+      <Method Name="CH341SetupSerial" Hidden="true" />
+      <Method Name="New" Hidden="true" />
+      <Method Name="SetDalay" Hidden="true" />
+      <Method Name="SetupSerialMode" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Orion.Ch341.Serial.ParityModes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Serial.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Orion.Ch341.Serial.BaudRates" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Serial.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <InheritanceLine Type="Orion.Ch341.Ch341Device" FixedToPoint="true">
+      <Path>
+        <Point X="7.875" Y="2.891" />
+        <Point X="7.875" Y="3.375" />
+        <Point X="10.5" Y="3.375" />
+        <Point X="10.5" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAEAAAAAAABAAAAAAAgAAAAIAAA=</HashCode>
+      <FileName>Serial.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Orion.Ch341.I2cMaster">
+    <Position X="8.25" Y="7" Width="2.25" />
+    <Members>
+      <Method Name="CH341ReadEEPROM" Hidden="true" />
+      <Method Name="CH341ReadI2C" Hidden="true" />
+      <Method Name="CH341StreamI2C" Hidden="true" />
+      <Method Name="CH341WriteEEPROM" Hidden="true" />
+      <Method Name="CH341WriteI2C" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Orion.Ch341.I2cMaster.EepromTypes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>I2cMaster.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Orion.Ch341.I2cMaster.I2cSpeed" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>I2cMaster.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAICQAAAAAABACAAAAgBAABAQAAQAAAAA=</HashCode>
+      <FileName>I2cMaster.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Orion.Ch341.Parallel">
+    <Position X="4.25" Y="3.75" Width="2" />
+    <Members>
+      <Method Name="AbortRead" Hidden="true" />
+      <Method Name="AbortWrite" Hidden="true" />
+      <Method Name="CH341AbortRead" Hidden="true" />
+      <Method Name="CH341AbortWrite" Hidden="true" />
+      <Method Name="CH341InitParallel" Hidden="true" />
+      <Method Name="CH341ReadData0" Hidden="true" />
+      <Method Name="CH341ReadData1" Hidden="true" />
+      <Method Name="CH341ResetRead" Hidden="true" />
+      <Method Name="CH341ResetWrite" Hidden="true" />
+      <Method Name="CH341SetParaMode" Hidden="true" />
+      <Method Name="CH341WriteData0" Hidden="true" />
+      <Method Name="CH341WriteData1" Hidden="true" />
+      <Method Name="InitParallel" Hidden="true" />
+      <Method Name="New" Hidden="true" />
+      <Method Name="ReadData" Hidden="true" />
+      <Method Name="ResetRead" Hidden="true" />
+      <Method Name="ResetWrite" Hidden="true" />
+      <Method Name="SetParallelMode" Hidden="true" />
+      <Method Name="WriteData" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Orion.Ch341.Parallel.ParallelMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Parallel.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QCAIAAEQAAABAAQAAAQAIgIAAAAgAAAACAAAgEAAAEA=</HashCode>
+      <FileName>Parallel.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Orion.Ch341.Epp">
+    <Position X="3" Y="7" Width="2" />
+    <Members>
+      <Method Name="CH341EppReadAddr" Hidden="true" />
+      <Method Name="CH341EppReadData" Hidden="true" />
+      <Method Name="CH341EppSetAddr" Hidden="true" />
+      <Method Name="CH341EppWriteAddr" Hidden="true" />
+      <Method Name="CH341EppWriteData" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Orion.Ch341.Epp.Registers" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Epp.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgAAAAIAAEEAAAAAAAAAAAAAABAAACAAAoAAAAAAAAA=</HashCode>
+      <FileName>Epp.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Orion.Ch341.SpiMaster">
+    <Position X="10.75" Y="7" Width="2.25" />
+    <Members>
+      <Method Name="CH341BitStreamSPI" Hidden="true" />
+      <Method Name="CH341StreamSPI3" Hidden="true" />
+      <Method Name="CH341StreamSPI4" Hidden="true" />
+      <Method Name="CH341StreamSPI5" Hidden="true" />
+      <Property Name="WiresCount" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Orion.Ch341.SpiMaster.WiresCountEnum" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SpiMaster.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAJAAAAAAAAAAAAAAAAAAAAAAABAAAQCAAAAAAEA=</HashCode>
+      <FileName>SpiMaster.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Orion.Ch341.Mem">
+    <Position X="5.5" Y="7" Width="2" />
+    <Members>
+      <Method Name="CH341MemReadAddr0" Hidden="true" />
+      <Method Name="CH341MemReadAddr1" Hidden="true" />
+      <Method Name="CH341MemWriteAddr0" Hidden="true" />
+      <Method Name="CH341MemWriteAddr1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAgAACAAAAAAAAAEAAAAQAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mem.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
