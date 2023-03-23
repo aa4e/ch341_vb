@@ -12,13 +12,13 @@ It realize all the available working modes of ch341a chip: `serial` (SPI, IIC) a
 
 First, imports Ch341 namespace:
 
-```
+```vbnet
 Imports Ch341
 ```
 
 ### SPI example, VB.NET:
 
-```
+```vbnet
 ''' <summary>
 ''' Read ID register of BMP280 sensor.
 ''' </summary>
@@ -36,7 +36,7 @@ End Sub
   
 ### I2C example, VB.NET:
 
-```
+```vbnet
 Dim ch341 As New I2cMaster(0, True, I2cMaster.I2cSpeed.Standard)
 ```
 
